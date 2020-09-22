@@ -1,4 +1,7 @@
 {% load mptt_tags %}
+
+<h1>Welcome to Django Library</h1>
+
 <ul>
   {% recursetree genres %}
   <li>
@@ -10,3 +13,5 @@
   </li>
   {% endrecursetree %}
 </ul>
+
+<button type="button"><a href="/addgenre/">Add A Genre</a></button>

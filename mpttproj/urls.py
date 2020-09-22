@@ -20,5 +20,6 @@ import re
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path(r'^genres/$', mpttviews.shows_genres, name="homepage"),
+    path('', mpttviews.shows_genres, name="homepage"),
+    path('addgenre/', mpttviews.add_genre, name="addgenre"),
 ]

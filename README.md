@@ -8,7 +8,7 @@ Must install `django-mptt` into your project.
 
 ### Assistance by
 
-N/A
+Lori Henderson & Edwin Torres on 09/21/2020
 
 ### Summary
 
